@@ -14,7 +14,7 @@ const Who = () => {
           guide user’s to place bet on given coupons.
         </h2>
       </div>
-      <div className="w-1/2 object-cover max-w-[700px] max-h-[500px] mt-10 ">
+      <div className="w-1/2 object-cover max-w-[700px] max-h-[500px] mt-6 ">
         <img
           src="https://www.freelunch.co.in/wp-content/uploads/2018/07/machine-learning-in-sports.png"
           alt="homeimg"
