@@ -9,7 +9,9 @@ const About = () => {
           OBI's BETS
         </h1>
       </div>
-      <div></div>
+      <div>
+        
+      </div>
     </div>
   );
 };

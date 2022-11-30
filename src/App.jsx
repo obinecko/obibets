@@ -50,7 +50,12 @@ const App = () => {
           <div className="w-full md:w-3/4 lg:w-2/4">
             <Main />
             ||
-            <Skeleton animation="wave" count={15} height={80} width={1000} />
+            <div>
+              <h2 className="text-white text-2xl text-center">
+                You dont have access to premium tips{" "}
+              </h2>
+              <Skeleton animation="wave" count={7} height={80} width={960} />
+            </div>
           </div>
         </div>
       ) : (
@@ -59,11 +64,10 @@ const App = () => {
             <Welcome />
           </div>
 
-          <div className="text-center p-6">
-            <h1 className="text-white">Want to check it out? try for free</h1>
+          <div className="text-center mt-2 grid place-content-center p-4 ">
             <GoogleLogin
               clientId={clientId}
-              buttonText="Sign in with Google"
+              buttonText="Want to check it out? try for free"
               onSuccess={onSuccess}
               onFailure={onFailure}
               cookiePolicy={"single_host_origin"}

@@ -7,6 +7,8 @@ import Sidebar from "./Sidebar";
 import Ticket from "./Ticket";
 import TicketDetail from "./TicketDetail";
 import TicketsList from "./TicketsList";
+import Who from "./Who";
+
 
 export {
   Sidebar,
@@ -18,4 +20,5 @@ export {
   Pricing,
   TicketDetail,
   TicketsList,
+  Who,
 };

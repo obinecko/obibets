@@ -1,16 +1,18 @@
 import React from "react";
-import { Navbar } from "../components";
+import { Who } from "../components";
+// import { Navbar } from "../components";
 import About from "../components/About";
 
 const Welcome = () => {
   return (
     <div>
-      <div>
+      {/* <div>
         <Navbar />
-      </div>
+      </div> */}
       <div>
         <About />
       </div>
+      <Who />
     </div>
   );
 };
